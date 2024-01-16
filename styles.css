@@ -1,0 +1,108 @@
+/* used everywhere */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* header part styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3.25rem 13.5rem 6rem 13.5rem;
+}
+nav {
+  display: flex;
+  margin-left: 20px;
+}
+nav > p {
+  margin-left: 1rem;
+}
+.site-name-1 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.site-name-2 {
+  color: #ff5400;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.nav-orange-text {
+  color: #ff5400;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.nav-black-text {
+  color: #424247;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* main part starts */
+.travel-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url('images/1.png');
+  background-repeat: no-repeat;
+  margin: 0 13.5rem 6rem 13.5rem;
+  width: 1170px;
+  height: 500px;
+  border-radius: 1rem;
+}
+.travel-section h3 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 6.5rem;
+}
+.travel-section h5 {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  line-height: 26px; /* 162.5% */
+}
+.travel-section-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem 11rem;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  padding-left: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 42rem;
+  height: 3.5rem;
+}
+.travel-section-boxes select {
+  margin-right: 1rem;
+}
+.yellow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yellow-btn {
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  border: 0;
+  border-radius: 0.5rem;
+}
+.svg-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.button-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
