@@ -14,7 +14,7 @@ header {
 }
 nav {
   display: flex;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 nav > p {
   margin-left: 1rem;
@@ -49,8 +49,8 @@ nav > p {
     url('images/1.png');
   background-repeat: no-repeat;
   margin: 0 auto;
-  width: 1170px;
-  height: 500px;
+  width: 73rem;
+  height: 32.25rem;
   border-radius: 1rem;
 }
 .travel-section h3 {
@@ -67,7 +67,7 @@ nav > p {
   font-weight: 400;
   padding-top: 1.5rem;
   padding-bottom: 3rem;
-  line-height: 26px; /* 162.5% */
+  line-height: 1.625rem; /* 162.5% */
 }
 .travel-section-boxes {
   display: flex;
@@ -88,8 +88,6 @@ nav > p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.yellow-btn {
   background: #ff5400;
   width: 9rem;
   height: 3.5rem;
@@ -166,7 +164,7 @@ nav > p {
   font-size: 1rem;
   font-weight: 400;
   padding: 1.5rem 16rem;
-  line-height: 26px; /* 162.5% */
+  line-height: 1.625rem; /* 162.5% */
 }
 
 .destination-section-image-box-1,
@@ -199,7 +197,7 @@ nav > p {
   font-weight: 800;
 }
 .destination-section-image-box-2-1-content h3,
-.destination-section-image-box-2-2-content h3{
+.destination-section-image-box-2-2-content h3 {
   position: absolute;
   margin-top: 8rem;
   margin-left: 8rem;
@@ -207,7 +205,7 @@ nav > p {
   font-size: 2rem;
   font-weight: 800;
 }
-.destination-section-image-box-2-3-content h3{
+.destination-section-image-box-2-3-content h3 {
   position: absolute;
   margin-top: 8rem;
   margin-left: 5rem;
@@ -215,7 +213,7 @@ nav > p {
   font-size: 2rem;
   font-weight: 800;
 }
-.destination-section-image-box-3-1-content h3{
+.destination-section-image-box-3-1-content h3 {
   position: absolute;
   margin-top: 8rem;
   margin-left: 9rem;
@@ -223,11 +221,248 @@ nav > p {
   font-size: 2rem;
   font-weight: 800;
 }
-.destination-section-image-box-3-2-content h3{
+.destination-section-image-box-3-2-content h3 {
   position: absolute;
   margin-top: 8rem;
   margin-left: 15rem;
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
+}
+/* choose us styles */
+.choose {
+  margin: 6rem 11rem;
+  text-align: center;
+}
+.choose h3 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.choose h5 {
+  color: rgba(19, 19, 24, 0.7);
+  padding: 1.5rem 16rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+.choose-us-second-layer {
+  display: flex;
+}
+.choose-us-second-layer-b1 {
+  width: 35.8rem;
+  height: 17.75rem;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  text-align: left;
+  border: 0.08rem solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.choose-us-second-layer-b2 {
+  width: 35.8rem;
+  height: 17.75rem;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  text-align: left;
+  border: 0.08rem solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.choose-us-third-layer {
+  width: 35.8rem;
+  height: 17.75rem;
+  border-radius: 1rem;
+  text-align: left;
+  margin: 1.5rem auto;
+  border: 0.08rem solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.choose-us-second-layer h3,
+.choose-us-third-layer h3 {
+  padding-left: 1rem;
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.choose-us-second-layer h5,
+.choose-us-third-layer h5 {
+  width: 30rem;
+  padding-left: 1rem;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem; /* 162.5% */
+}
+/* Newsletter styles */
+.newsletter {
+  display: flex;
+  margin: 6rem 11rem;
+  text-align: left;
+}
+.newsletter-1 {
+  width: 30rem;
+  padding: 2.5rem;
+  margin-right: 1.5rem;
+  border-radius: 1rem;
+  border: 0.0625rem solid #ff5400;
+}
+.newsletter-1 h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.newsletter-1 h5 {
+  color: #5a5a5d;
+  width: 21.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem; /* 162.5% */
+}
+hr {
+  margin-bottom: 1.5rem;
+  width: auto;
+  height: 0.0625rem;
+  background: rgba(19, 19, 24, 0.1);
+}
+input[type='text'],
+input[type='email'] {
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-weight: 400;
+  border: 0;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  width: 24.56rem;
+  height: 3.25rem;
+  border-radius: 0.5rem;
+  background: rgba(19, 19, 24, 0.05);
+}
+.subscribe-button {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 800;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #ff5400;
+  width: 24.56rem;
+  height: 3.25rem;
+}
+/* footer styles */
+footer {
+  text-align: center;
+  padding: 6.875rem 19rem;
+  background: rgba(19, 19, 24, 0.05);
+}
+.site-name-3 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.site-name-4 {
+  color: #ff5400;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+footer h5 {
+  color: #5a5a5d;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.footer-t2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.footer-t2 img {
+  margin-right: 2rem;
+}
+footer h4 {
+  padding-top: 2rem;
+  color: #131318;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* Mobile responsive designs */
+@media screen and (max-width: 600px) {
+  header {
+    margin: 2rem auto;
+    flex-direction: column;
+  }
+  nav {
+    margin-left: auto;
+  }
+  .travel-section {
+    margin: auto;
+    margin-left: 1rem;
+    width: auto;
+    height: auto;
+  }
+  .travel-section h3 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 6.5rem;
+  }
+  .travel-section h5 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    line-height: 1.625rem; /* 162.5% */
+  }
+  .travel-section-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem 4rem;
+    background: rgba(255, 255, 255, 0.3);
+    width: 30rem;
+    height: 3.5rem;
+  }
+
+  /* Popular tour styles */
+  img {
+    width: auto;
+  }
+  .popular-tour-section {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .popular-tour-text {
+    margin: 0;
+    width: auto;
+  }
+  .popular-tour-text h3 {
+    margin: 0;
+  }
+  /* Destination tour styles */
+  .destination-section {
+    margin: 0rem;
+  }
+  .destination-section h5 {
+    padding: auto;
+  }
+  .destination-section-image-box-1,
+  .destination-section-image-box-2,
+  .destination-section-image-box-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .choose,
+  .choose h5 {
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
 }
